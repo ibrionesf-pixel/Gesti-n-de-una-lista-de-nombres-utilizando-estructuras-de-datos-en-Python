@@ -1,6 +1,5 @@
-# ================================
-#  Lista de Nombres
-# ================================
+
+# Lista de Nombres
 
 nombres = []  # Lista donde se guardan los nombres
 
@@ -23,9 +22,9 @@ def mostrar():
 def buscar():
     nombre = input("¿Qué nombre quieres buscar? ")
     if nombre in nombres:
-        print(f"✔️ '{nombre}' SÍ está en la lista.")
+        print(f" '{nombre}' SÍ está en la lista.")
     else:
-        print(f"✘ '{nombre}' NO está en la lista.")
+        print(f" '{nombre}' NO está en la lista.")
 
 
 def eliminar():
@@ -38,7 +37,7 @@ def eliminar():
         print("Ese nombre no existe en la lista.")
 
 
-# ---- Menú principal ----
+# Menú principal
 print("=== Lista de Nombres ===")
 
 while True:
